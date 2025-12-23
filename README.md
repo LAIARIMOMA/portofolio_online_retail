@@ -53,8 +53,11 @@ Pour garantir la fiabilité des résultats, le projet a été divisé en 4 étap
    - suppression des doublons
    - gestion des valeurs manquantes
    - suppression des factures annulées
-3. Analyse exploratoire des données (EDA)
 ## phase 02 : Analyse de performances (KPI)  :
+3. Analyse exploratoire des données (EDA) :
+        -Creation chiffre d'affaire(revenue) 
+        - verifier le nombre de transactions ,le nombre de clients et le nombre de produits à analyser
+
 4. Calcul des indicateurs clés (KPI) :
         -VENTES : chiffre d'affaires (CA) total et evolution mensuelle.
         -CLIENTS : Nombre de client unique et Panier Moyen
