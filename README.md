@@ -133,8 +133,8 @@ Sur la base de ces résultats, voici les actions stratégiques préconisées :
 └── README.md           # Présentation globale
 '''
 ## 🚀 Résultats Clés (Exemples)
-* ✅ **Saisonnalité :** Identification d'un pic de ventes majeur en **Novembre/Décembre**, représentant **35% du CA annuel**.
-* ✅ **Concentration :** Détection des **10% de clients VIP** qui génèrent à eux seuls **70% du chiffre d'affaires**.
+* ✅ **Saisonnalité :** Identification d'un pic de ventes majeur en  3 mois**septemre,octobre,novembre**, représentant **38% du CA annuel 2011**.
+* ✅ **Concentration :** Détection des **22% de clients VIP** qui génèrent à eux seuls **65% du chiffre d'affaires (revenues )**.
 * ✅ **Stock :** Réduction potentielle de **15% des coûts de stockage** en priorisant les produits à haute rotation identifiés.
 
 ---
@@ -142,6 +142,6 @@ Sur la base de ces résultats, voici les actions stratégiques préconisées :
 Si vous avez des questions sur ce projet ou si vous souhaitez échanger sur la Data Analyse, n'hésitez pas à me contacter :
 
 * **Nom :** LAIARIMOMA
-* 💼 **LinkedIn :** [votre-profil-linkedin](https://www.linkedin.com/in/votre-nom/)
-* 📧 **Email :** [votre.email@exemple.com](mailto:votre.email@exemple.com)
-* 📂 **Portfolio GitHub :** [Lien vers votre profil](https://github.com/votre-nom)
+* 💼 **LinkedIn :** [votre-profil-linkedin](https://www.linkedin.com/in/herizo-laiarimoma-2753083a0)
+* 📧 **Email :** [hlaiarimoma@gmail.com](mailto:hlaiarimoma@gmail.com)
+* 📂 **Portfolio GitHub :** [Lien vers votre profil](https://github.com/LAIARIMOMA)
