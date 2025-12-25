@@ -115,7 +115,7 @@ L'analyse des données a permis de mettre en lumière les points critiques suiva
 ## 🚀 Recommandations Business
 Sur la base de ces résultats, voici les actions stratégiques préconisées :
 
-* 💎 **Fidélisation VIP :** Lancer un programme de récompenses exclusif pour les 10% des meilleurs clients afin de sécuriser le CA principal.
+* 💎 **Fidélisation VIP :** Lancer un programme de récompenses exclusif pour les  meilleurs clients afin de sécuriser le CA principal.
 * 📦 **Optimisation des Stocks :** Prioriser le stockage des "Top produits" et réduire l'inventaire des produits à faible rotation pour libérer de la trésorerie.
 * 📅 **Marketing de Saisonnalité :** Lancer des campagnes promotionnelles durant les "périodes creuses" pour lisser l'activité sur toute l'année.
 * 🔄 **Réengagement :** Mettre en place des emails automatiques avec offres personnalisées pour reconquérir les clients du segment "À risque".
