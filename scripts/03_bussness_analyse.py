@@ -7,14 +7,14 @@ import seaborn as sns
 import datetime
 base='..\\data\\nettoyer\\Online_Retail_a_analyser.csv'
 df_a_analyser= pd.read_csv(base,parse_dates=['InvoiceDate'])
-df_a_analyser['Revenue']=df_a_analyser['UnitPrice']*df_a_analyser['Quantity']
+df_a_analyser.info()
 date_max= df_a_analyser['InvoiceDate'].max() +pd.Timedelta(days=1)
-rfm = df_a_analyser.groupby('CustomerID').agg({
+rfm = df_a_analyser.groupby('Customer ID').agg({
 'InvoiceDate': lambda x: (date_max- x.max()).days,
-'InvoiceNo': 'nunique',
+'Invoice': 'nunique',
 'Revenue': 'sum'
 }).reset_index()         
-rfm.rename(columns={'InvoiceDate':'Recency','InvoiceNo':'Frequency','Revenue':'Monetary'}, inplace=True)
+rfm.rename(columns={'InvoiceDate':'Recency','Invoice':'Frequency','Revenue':'Monetary'}, inplace=True)
 print(rfm.head())
 rfm['R_Score'] = pd.qcut(rfm['Recency'], 5, labels=[5, 4, 3, 2, 1], duplicates='drop')  
 
@@ -25,7 +25,7 @@ rfm['RFM_Score'] = rfm['R_Score'].astype(str) + \
                       rfm['F_Score'].astype(str) + \
                       rfm['M_Score'].astype(str)
 
-print(rfm[['CustomerID','RFM_Score']].head().to_string(index=False))
+print(rfm[['Customer ID','RFM_Score']].head().to_string(index=False))
 rfm['R_Score']=rfm['R_Score'].astype(str)
 rfm['F_Score']=rfm['F_Score'].astype(str)
 rfm['M_Score']=rfm['M_Score'].astype(str)
@@ -59,4 +59,5 @@ pourcentage_rev['pourcent']=((pourcentage_rev['total_revenue']/somme_rev)*100 ).
 print('pourcentage  par nombre de segment')
 print(pourcentage)
 print("pourcentage  par segment par Chiffre d'Affaie")
-print(pourcentage_rev)
+print(pourcentage_rev)\
+
