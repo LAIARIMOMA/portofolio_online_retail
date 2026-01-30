@@ -7,6 +7,7 @@ import seaborn as sns
 import datetime
 base='..\\data\\nettoyer\\Online_Retail_a_analyser.csv'
 df_a_analyser= pd.read_csv(base,parse_dates=['InvoiceDate'])
+df_a_analyser['InvoiceDate']=df_a_analyser['InvoiceDate'].dt.normalize()
 df_a_analyser.info()
 date_max= df_a_analyser['InvoiceDate'].max() +pd.Timedelta(days=1)
 rfm = df_a_analyser.groupby('Customer ID').agg({
